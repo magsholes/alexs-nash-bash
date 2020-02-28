@@ -1,0 +1,95 @@
+body {
+    background-color: #f8f2e7;
+    height: 100%;
+}
+
+.itinerary-container {
+    width: 100vw;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    height: auto;
+    float: left;
+    display: inline;
+}
+
+h1 {
+    font: 8em 'Euphoria Script';
+    color: #954d55;
+    text-align: center;
+}
+
+h2 {
+    font: 2.5em 'Arya', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    width: 50%;
+    color: #4a1118;
+    border-bottom: 2px dotted #4a1118;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4a1118;
+}
+
+
+.time, .title {
+    display: block;
+}
+
+.event {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 70px;
+    float: left;
+    font: 1em 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.time {
+    text-align: right;
+    width: 48%;
+    float: left;
+    margin-right: 5px;
+    color: #954d55;
+    padding-top: 10px;
+}
+
+.title {
+    text-align: left;
+    width: 47%;
+    float: right;
+    margin-left: 5px;
+    padding: 10px 10px 10px 0;
+}
+
+.details {
+    font-weight: 300;
+    font-size: .8em;
+}
+
+.clearfix {
+  clear: both;
+}
+.clearfix:after {
+  clear: both; 
+  content: "";
+  display: table; 
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+

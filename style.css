@@ -102,6 +102,7 @@ a:hover {
     .event {font-size: 2em;}
     .time {width: 40%;}
     .title {width: 55%;}
+    .icon {height: 25px; width: auto;}
 }
 
 

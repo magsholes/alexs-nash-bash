@@ -30,7 +30,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font: 1.2em 'Montserrat', sans-serif;
     font-weight: 400;
     color: #4a1118;
 }
@@ -69,8 +69,23 @@ h3 {
 
 .details {
     font-weight: 300;
-    font-size: .8em;
+    font-size: 1em;
 }
+
+a {
+    color: #954d55;
+    text-decoration: underline;
+}
+a:hover {
+    color: #4a1118;
+}
+
+.icon {
+    width: auto;
+    height: 15px;
+    fill: #954d55;
+}
+
 
 .clearfix {
   clear: both;
@@ -83,8 +98,10 @@ h3 {
 
 @media screen and (max-width: 992px) {
     body {font-size: 1em;}
-    h1 {font-size: 5em;}
-    h2 {font-size: 3em; width: 80%;}
+    h2 {font-size: 5em; width: 100%;}
+    .event {font-size: 2em;}
+    .time {width: 40%;}
+    .title {width: 55%;}
 }
 
 
